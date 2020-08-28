@@ -9,7 +9,7 @@ npm run start
 npm run start:watch
 ```
 
-## V1 Test Results
+## V1 Test Sample
 ### Input
 ```
 curl -H "Content-Type: application/json" -X POST -d '{"data": "JOHN0000MICHAEL0009994567"}' http://localhost:4000/api/v1/parse
@@ -19,7 +19,7 @@ curl -H "Content-Type: application/json" -X POST -d '{"data": "JOHN0000MICHAEL00
 {"firstName":"JOHN0000","lastName":"MICHAEL000","clientId":"9994567"}
 ```
 
-## V2 Test Results
+## V2 Test Sample
 ### Input
 ```
 curl -H "Content-Type: application/json" -X POST -d '{"data": "JOHN0000MICHAEL0009994567"}' http://localhost:4000/api/v2/parse

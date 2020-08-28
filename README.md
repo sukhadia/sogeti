@@ -12,7 +12,7 @@ npm run start:watch
 ## V1 Test Results
 ### Input
 ```
-neelsukhadia@penguin:~/projects/tests/sogeti$ curl -H "Content-Type: application/json" -X POST -d '{"data": "JOHN0000MICHAEL0009994567"}' http://localhost:4000/api/v1/parse
+curl -H "Content-Type: application/json" -X POST -d '{"data": "JOHN0000MICHAEL0009994567"}' http://localhost:4000/api/v1/parse
 ```
 ### Output
 ```
@@ -22,7 +22,7 @@ neelsukhadia@penguin:~/projects/tests/sogeti$ curl -H "Content-Type: application
 ## V2 Test Results
 ### Input
 ```
-neelsukhadia@penguin:~/projects/tests/sogeti$ curl -H "Content-Type: application/json" -X POST -d '{"data": "JOHN0000MICHAEL0009994567"}' http://localhost:4000/api/v2/parse
+curl -H "Content-Type: application/json" -X POST -d '{"data": "JOHN0000MICHAEL0009994567"}' http://localhost:4000/api/v2/parse
 ```
 ### Output
 ```
